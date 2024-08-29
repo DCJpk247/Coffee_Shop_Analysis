@@ -1,0 +1,24 @@
+Objectives:
+1. Profile and prepare the raw data for analysis.
+2. Explore the data with Excel PivotTables.
+3. Build a dynamic dashboard to visualize patterns and trends. 
+
+
+1. Prepare the data for analysis.
+	*Read over the data. Get familiar with it. 
+	*Add a new column to calculate Revenue (price*quantity).
+	*Add new columns to calculate Month and Day of Week based on the transaction date. Display them as text, i.e. Jan, Feb, Sun, Mon.
+	*Add a new column to extract Hour from the transaction time. 
+
+2. Explore the data with Excel PivotTables.
+	-Insert a PivotTable to show revenue by month.
+	-Add two more PivotTables to show the number of transactions by day of week and by hour of day.
+	-Add a PivotTable to show the number of transactions by product category in descending order.
+	-Add a PivotTable to show the number of transactions and revenue by product type, desc and top 15 transactions.
+
+3. Build a dynamic dashboard.
+	+ Add Pivot Charts to show revenue by month as a line chart, transactions by day of week and hour of day as column charts, and transactions by product category as a bar chart.
+	+ Assemble the charts into a rough dashboard layout, and include space for the PivotTable showing Top 15 product types.
+	+ Add a slicer for store location and connect it to all of the PivotTables.
+	+ Finalize the Dashboard. (TIP: Hide the raw PivotTables and remove gridlines.)
+	+ Do you notice any interesting patterns or trends? What recommendations might you offer to improve Maven Roasters operations?	
